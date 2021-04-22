@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+/* font-family: 'Fredoka One', cursive;
+font-family: 'Russo One', sans-serif;
+font-family: 'Bebas Neue', cursive; */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Fredoka One", cursive;
+}
+body {
+  background-image: url(https://picsum.photos/1300);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+.hero {
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+.form {
+  width: 380px;
+  height: 480px;
+  position: relative;
+  margin: 6% auto;
+  background: rgba(0, 0, 0, 0.644);
+  padding: 5px;
+  overflow: hidden;
+  border-radius: 15px;
+}
+.butt {
+  width: 240px;
+  margin: 35px auto;
+  position: relative;
+  box-shadow: 0 0 20px 10px #ffffff2d;
+  border-radius: 20px;
+}
+.log {
+  margin-top: 4px;
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+  padding: 12px 35px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+  font-family: "Russo One", sans-serif;
+  font-size: 11.2px;
+}
+#btn {
+  padding-left: 19px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 110px;
+  height: 100%;
+  background: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 255, 255));
+  border-radius: 30px;
+  transition: 0.5s;
+}
+.icon {
+  margin: 30px auto;
+  text-align: center;
+}
+.icon img {
+  width: 40px;
+  margin: 8px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.input {
+  top: 180px;
+  position: absolute;
+  width: 280px;
+  transition: 0.7s;
+}
+.f {
+  width: 100%;
+  padding: 10px 0;
+  margin: 5px 0;
+  border-left: 0;
+  border-top: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.623);
+  border-right: 0;
+  outline: none;
+  background: transparent;
+  color: whitesmoke;
+}
+.submit {
+  font-family: "Russo One", sans-serif;
+  width: 85%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 255, 255));
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+  font-weight: bolder;
+  font-size: 15px;
+}
+.submit:hover {
+  color: blanchedalmond;
+  background-image: linear-gradient(black, black);
+}
+.check {
+  margin: 30px 10px 30px 0px;
+}
+span {
+  color: rgba(255, 255, 255, 0.329);
+  font-size: 12px;
+  bottom: 68px;
+  position: absolute;
+}
+#login {
+  left: 50px;
+}
+#register {
+  left: 450px;
+}
+
+#hf:hover {
+  width: 350px;
+  color: springgreen;
+  display: grid;
+  place-items: center;
+  background-color: whitesmoke;
+  border-radius: 50px;
+  padding: 5px;
+  text-shadow: 0.5px 0.5px black;
+  letter-spacing: 2px;
+}
+#hf{
+  width: 350px;
+  color: whitesmoke;
+  display: grid;
+  place-items: center;
+  background-color: springgreen;
+  border-radius: 50px;
+  padding: 5px;
+  text-shadow: 0.5px 0.5px black;
+  letter-spacing: 2px;
+  margin-left: 10px;
+  margin-top: 225px;
+}
+/* 
+.form {
+  display: grid;
+  place-items: center;
+} */

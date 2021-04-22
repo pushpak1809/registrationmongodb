@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>LOGIN | REGISTER</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <div class="hero" >
+      <div class="form">
+        <div class="butt">
+          <div id="btn"></div>
+          <button type="button" class="log" onclick="login()">LOG IN</button>
+          <button type="button" class="log" onclick="register()">
+            REGISTER
+          </button>
+        </div>
+       
+        <form id="login" class="input">
+          <input type="text " class="f" placeholder="Username" required />
+          <input
+            type="password"
+            class="f"
+            placeholder="Enter Password"
+            required
+          />
+          <input type="checkbox" class="check" required /><span
+            >Remember Password</span
+          >
+          <button type="submit" class="submit">LOG IN</button>
+        </form>
+        <form id="register" class="input"  method="post" action="/signup" method="POST">
+          <input name="username" type="text " class="f" placeholder="Username" required />
+          <input name="email" type="email" class="f" placeholder="Email" required />
+          <input
+          required
+            name="password" 
+          type="password"
+            class="f"
+            placeholder="Enter Password"
+            required
+          />
+          <input type="checkbox" class="check" required /><span
+            >I agree to the Terms and Conditions</span
+          >
+          <button type="submit" class="submit">REGISTER</button>
+        </form>
+      </div>
+    </div>
+    <script>
+      var x = document.getElementById("login");
+      var y = document.getElementById("register");
+      var z = document.getElementById("btn");
+      function register() {
+        x.style.left = "  -400px";
+        y.style.left = "  50px";
+        z.style.left = "  110px";
+      }
+      function login() {
+        x.style.left = "  50px";
+        y.style.left = "  450px";
+        z.style.left = "  0px";
+      }
+    </script>
+  </body>
+</html>
